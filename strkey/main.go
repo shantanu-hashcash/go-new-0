@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/hcnet/go/strkey/internal/crc16"
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/strkey/internal/crc16"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 // ErrInvalidVersionByte is returned when the version byte from a provided

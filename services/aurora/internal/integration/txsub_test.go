@@ -6,9 +6,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/services/aurora/internal/test/integration"
-	"github.com/hcnet/go/txnbuild"
+	"github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test/integration"
+	"github.com/shantanu-hashcash/go/txnbuild"
 )
 
 func TestTxSub(t *testing.T) {

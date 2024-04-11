@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/hcnet/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/protocols/aurora"
 )
 
 func TestLedgerActions_Index(t *testing.T) {

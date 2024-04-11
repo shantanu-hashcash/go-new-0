@@ -8,7 +8,7 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 const (

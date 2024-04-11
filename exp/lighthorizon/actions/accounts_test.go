@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hcnet/go/exp/lightaurora/common"
-	"github.com/hcnet/go/exp/lightaurora/services"
-	"github.com/hcnet/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/common"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/services"
+	"github.com/shantanu-hashcash/go/support/render/problem"
 )
 
 func setupTest() {

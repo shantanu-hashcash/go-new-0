@@ -2,7 +2,7 @@ package pg
 
 import (
 	"github.com/lib/pq"
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 func IsUniqueViolation(err error) bool {

@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/services/aurora/internal/test/integration"
-	"github.com/hcnet/go/txnbuild"
+	"github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test/integration"
+	"github.com/shantanu-hashcash/go/txnbuild"
 	"github.com/stretchr/testify/assert"
 )
 

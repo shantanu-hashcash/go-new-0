@@ -6,7 +6,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/errors"
 	"github.com/stretchr/testify/suite"
 )
 

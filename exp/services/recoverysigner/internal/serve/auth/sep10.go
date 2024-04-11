@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/support/http/httpauthz"
-	"github.com/hcnet/go/support/log"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/support/http/httpauthz"
+	"github.com/shantanu-hashcash/go/support/log"
 	"gopkg.in/square/go-jose.v2"
 	"gopkg.in/square/go-jose.v2/jwt"
 )

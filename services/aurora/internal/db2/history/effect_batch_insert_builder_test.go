@@ -6,9 +6,9 @@ import (
 
 	"github.com/guregu/null"
 
-	"github.com/hcnet/go/services/aurora/internal/db2"
-	"github.com/hcnet/go/services/aurora/internal/test"
-	"github.com/hcnet/go/toid"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/toid"
 )
 
 func TestAddEffect(t *testing.T) {

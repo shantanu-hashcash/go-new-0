@@ -9,13 +9,13 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/hcnet/go/historyarchive"
-	aurora "github.com/hcnet/go/services/aurora/internal"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/services/aurora/internal/ingest"
-	support "github.com/hcnet/go/support/config"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/log"
+	"github.com/shantanu-hashcash/go/historyarchive"
+	aurora "github.com/shantanu-hashcash/go/services/aurora/internal"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2/history"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/ingest"
+	support "github.com/shantanu-hashcash/go/support/config"
+	"github.com/shantanu-hashcash/go/support/db"
+	"github.com/shantanu-hashcash/go/support/log"
 )
 
 var ingestCmd = &cobra.Command{

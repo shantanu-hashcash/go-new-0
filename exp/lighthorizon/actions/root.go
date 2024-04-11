@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/hcnet/go/support/log"
-	supportProblem "github.com/hcnet/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/support/log"
+	supportProblem "github.com/shantanu-hashcash/go/support/render/problem"
 )
 
 type RootResponse struct {

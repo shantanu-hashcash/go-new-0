@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/hcnet/go/protocols/aurora/operations"
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/protocols/aurora/operations"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 // BuildURL creates the endpoint to be queried based on the data in the OperationRequest struct.

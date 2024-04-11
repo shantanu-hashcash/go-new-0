@@ -12,8 +12,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/log"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/log"
 )
 
 var extractBinName = regexp.MustCompile(`^(?P<bin>[a-z0-9-]+)-(?P<tag>.+)$`)
@@ -103,7 +103,7 @@ func build(pkg, dest, version, buildOS, buildArch string) {
 	rev := runOutput("git", "rev-parse", "HEAD")
 	versionString := version[1:] // Remove letter `v`
 	versionFlag := fmt.Sprintf(
-		"-X=github.com/hcnet/go/support/app.version=%s-%s",
+		"-X=github.com/shantanu-hashcash/go/support/app.version=%s-%s",
 		versionString, rev,
 	)
 
@@ -350,7 +350,7 @@ func repoName() string {
 	if os.Getenv("REPO") != "" {
 		return os.Getenv("REPO")
 	}
-	return "github.com/hcnet/go"
+	return "github.com/shantanu-hashcash/go"
 
 }
 

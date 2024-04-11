@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/hcnet/go/ingest/ledgerbackend"
-	"github.com/hcnet/go/support/collections/set"
+	"github.com/shantanu-hashcash/go/ingest/ledgerbackend"
+	"github.com/shantanu-hashcash/go/support/collections/set"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

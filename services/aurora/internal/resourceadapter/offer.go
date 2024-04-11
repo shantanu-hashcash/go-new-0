@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/hcnet/go/amount"
-	protocol "github.com/hcnet/go/protocols/aurora"
-	auroraContext "github.com/hcnet/go/services/aurora/internal/context"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/support/render/hal"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/amount"
+	protocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	auroraContext "github.com/shantanu-hashcash/go/services/aurora/internal/context"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2/history"
+	"github.com/shantanu-hashcash/go/support/render/hal"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // PopulateOffer constructs an offer response struct from an offer row extracted from the

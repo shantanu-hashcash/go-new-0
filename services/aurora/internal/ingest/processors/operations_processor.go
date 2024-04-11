@@ -9,15 +9,15 @@ import (
 
 	"github.com/guregu/null"
 
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/protocols/aurora/base"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/support/contractevents"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/toid"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/amount"
+	"github.com/shantanu-hashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/protocols/aurora/base"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2/history"
+	"github.com/shantanu-hashcash/go/support/contractevents"
+	"github.com/shantanu-hashcash/go/support/db"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/toid"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // OperationProcessor operations processor
@@ -322,7 +322,7 @@ func addAccountAndMuxedAccountDetails(result map[string]interface{}, a xdr.Muxed
 	if a.Type == xdr.CryptoKeyTypeKeyTypeMuxedEd25519 {
 		result[prefix+"_muxed"] = a.Address()
 		// _muxed_id fields should had ideally been stored in the DB as a string instead of uint64
-		// due to Javascript not being able to handle them, see https://github.com/hcnet/go/issues/3714
+		// due to Javascript not being able to handle them, see https://github.com/shantanu-hashcash/go/issues/3714
 		// However, we released this code in the wild before correcting it. Thus, what we do is
 		// work around it (by preprocessing it into a string) in Operation.UnmarshalDetails()
 		result[prefix+"_muxed_id"] = uint64(a.Med25519.Id)

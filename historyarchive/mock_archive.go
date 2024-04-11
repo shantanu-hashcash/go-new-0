@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hcnet/go/support/storage"
+	"github.com/shantanu-hashcash/go/support/storage"
 )
 
 type MockArchiveBackend struct {

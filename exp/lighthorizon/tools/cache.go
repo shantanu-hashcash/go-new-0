@@ -12,9 +12,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/hcnet/go/metaarchive"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/storage"
+	"github.com/shantanu-hashcash/go/metaarchive"
+	"github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/storage"
 )
 
 const (

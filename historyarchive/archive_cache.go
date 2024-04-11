@@ -6,8 +6,8 @@ import (
 	"path"
 
 	lru "github.com/hashicorp/golang-lru"
-	log "github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/storage"
+	log "github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/storage"
 )
 
 type CacheOptions struct {

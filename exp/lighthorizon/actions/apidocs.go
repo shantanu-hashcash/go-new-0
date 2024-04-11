@@ -1,7 +1,7 @@
 package actions
 
 import (
-	supportProblem "github.com/hcnet/go/support/render/problem"
+	supportProblem "github.com/shantanu-hashcash/go/support/render/problem"
 	"net/http"
 )
 

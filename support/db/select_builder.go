@@ -2,7 +2,7 @@ package db
 
 import (
 	"context"
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 // Exec executes the query represented by the builder, populating the

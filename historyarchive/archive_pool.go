@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	log "github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/xdr"
+	log "github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/xdr"
 
 	backoff "github.com/cenkalti/backoff/v4"
 )

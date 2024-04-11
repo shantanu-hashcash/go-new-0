@@ -8,11 +8,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hcnet/go/historyarchive"
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/storage"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/historyarchive"
+	"github.com/shantanu-hashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/storage"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // This program will dump all the offers from a history archive checkpoint.

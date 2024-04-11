@@ -4,11 +4,11 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/hcnet/go/protocols/aurora"
-	auroraContext "github.com/hcnet/go/services/aurora/internal/context"
-	"github.com/hcnet/go/services/aurora/internal/ingest"
-	"github.com/hcnet/go/services/aurora/internal/ledger"
-	"github.com/hcnet/go/support/render/hal"
+	"github.com/shantanu-hashcash/go/protocols/aurora"
+	auroraContext "github.com/shantanu-hashcash/go/services/aurora/internal/context"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/ingest"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/ledger"
+	"github.com/shantanu-hashcash/go/support/render/hal"
 )
 
 // Populate fills in the details

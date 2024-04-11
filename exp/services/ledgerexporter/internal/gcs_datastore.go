@@ -10,7 +10,7 @@ import (
 	"google.golang.org/api/googleapi"
 
 	"cloud.google.com/go/storage"
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 // GCSDataStore implements DataStore for GCS

@@ -9,17 +9,17 @@ import (
 
 	"github.com/jarcoal/httpmock"
 
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/network"
-	hProtocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/protocols/aurora/effects"
-	"github.com/hcnet/go/protocols/aurora/operations"
-	"github.com/hcnet/go/support/clock"
-	"github.com/hcnet/go/support/clock/clocktest"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/http/httptest"
-	"github.com/hcnet/go/txnbuild"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/network"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/protocols/aurora/effects"
+	"github.com/shantanu-hashcash/go/protocols/aurora/operations"
+	"github.com/shantanu-hashcash/go/support/clock"
+	"github.com/shantanu-hashcash/go/support/clock/clocktest"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/http/httptest"
+	"github.com/shantanu-hashcash/go/txnbuild"
+	"github.com/shantanu-hashcash/go/xdr"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -4,8 +4,8 @@ package txnbuild
 import (
 	"fmt"
 
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // LiquidityPoolId represents the Hcnet liquidity pool id.

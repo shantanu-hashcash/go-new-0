@@ -3,7 +3,7 @@ package pipeline
 import (
 	"io"
 
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 func (m *multiWriter) Write(entry interface{}) error {

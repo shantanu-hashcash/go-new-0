@@ -5,13 +5,13 @@ import (
 	"flag"
 	"os/exec"
 
-	"github.com/hcnet/go/historyarchive"
-	"github.com/hcnet/go/ingest/ledgerbackend"
-	"github.com/hcnet/go/network"
+	"github.com/shantanu-hashcash/go/historyarchive"
+	"github.com/shantanu-hashcash/go/ingest/ledgerbackend"
+	"github.com/shantanu-hashcash/go/network"
 
 	"github.com/pelletier/go-toml"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/ordered"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/ordered"
 )
 
 const Pubnet = "pubnet"

@@ -3,7 +3,7 @@ package history
 import (
 	"context"
 
-	"github.com/hcnet/go/support/db"
+	"github.com/shantanu-hashcash/go/support/db"
 
 	"github.com/stretchr/testify/mock"
 )

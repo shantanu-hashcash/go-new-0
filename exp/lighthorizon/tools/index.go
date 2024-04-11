@@ -12,13 +12,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/hcnet/go/exp/lightaurora/index"
-	"github.com/hcnet/go/historyarchive"
-	"github.com/hcnet/go/strkey"
-	"github.com/hcnet/go/support/collections/maps"
-	"github.com/hcnet/go/support/collections/set"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/ordered"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/index"
+	"github.com/shantanu-hashcash/go/historyarchive"
+	"github.com/shantanu-hashcash/go/strkey"
+	"github.com/shantanu-hashcash/go/support/collections/maps"
+	"github.com/shantanu-hashcash/go/support/collections/set"
+	"github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/ordered"
 )
 
 var (

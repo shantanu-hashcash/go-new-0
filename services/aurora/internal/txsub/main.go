@@ -5,8 +5,8 @@ import (
 
 	"context"
 
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2/history"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // Listener represents some client who is interested in retrieving the result

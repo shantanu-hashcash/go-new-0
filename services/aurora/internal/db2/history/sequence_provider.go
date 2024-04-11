@@ -5,7 +5,7 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 func (q *Q) GetSequenceNumbers(ctx context.Context, addresses []string) (map[string]uint64, error) {

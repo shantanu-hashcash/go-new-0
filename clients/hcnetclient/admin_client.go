@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"time"
 
-	hProtocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/support/errors"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 // port - the aurora admin port, zero value defaults to 4200

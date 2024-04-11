@@ -1,6 +1,6 @@
 package main
 
-import exporter "github.com/hcnet/go/exp/services/ledgerexporter/internal"
+import exporter "github.com/shantanu-hashcash/go/exp/services/ledgerexporter/internal"
 
 func main() {
 	app := exporter.NewApp()

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 
 	"github.com/spf13/cobra"
-	"github.com/hcnet/go/exp/support/jwtkey"
-	supportlog "github.com/hcnet/go/support/log"
+	"github.com/shantanu-hashcash/go/exp/support/jwtkey"
+	supportlog "github.com/shantanu-hashcash/go/support/log"
 	"gopkg.in/square/go-jose.v2"
 )
 

@@ -13,10 +13,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/log"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/log"
 
-	types "github.com/hcnet/go/exp/lightaurora/index/types"
+	types "github.com/shantanu-hashcash/go/exp/lightaurora/index/types"
 )
 
 type S3Backend struct {

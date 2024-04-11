@@ -3,7 +3,7 @@ package serve
 import (
 	"net/http"
 
-	"github.com/hcnet/go/support/render/httpjson"
+	"github.com/shantanu-hashcash/go/support/render/httpjson"
 )
 
 var serverError = errorResponse{

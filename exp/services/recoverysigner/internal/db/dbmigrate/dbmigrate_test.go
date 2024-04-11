@@ -9,9 +9,9 @@ import (
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/shurcooL/httpfs/filter"
-	dbpkg "github.com/hcnet/go/exp/services/recoverysigner/internal/db"
-	"github.com/hcnet/go/exp/services/recoverysigner/internal/db/dbtest"
-	supportHttp "github.com/hcnet/go/support/http"
+	dbpkg "github.com/shantanu-hashcash/go/exp/services/recoverysigner/internal/db"
+	"github.com/shantanu-hashcash/go/exp/services/recoverysigner/internal/db/dbtest"
+	supportHttp "github.com/shantanu-hashcash/go/support/http"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

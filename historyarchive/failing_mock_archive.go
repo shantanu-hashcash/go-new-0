@@ -3,8 +3,8 @@ package historyarchive
 import (
 	"io"
 
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/storage"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/storage"
 )
 
 // FailingMockArchiveBackend is a mocking backend that will fail only when you

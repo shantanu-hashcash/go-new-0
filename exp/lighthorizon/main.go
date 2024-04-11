@@ -9,14 +9,14 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/hcnet/go/exp/lightaurora/actions"
-	"github.com/hcnet/go/exp/lightaurora/index"
-	"github.com/hcnet/go/exp/lightaurora/ingester"
-	"github.com/hcnet/go/exp/lightaurora/services"
-	"github.com/hcnet/go/exp/lightaurora/tools"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/actions"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/index"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/ingester"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/services"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/tools"
 
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/support/log"
+	"github.com/shantanu-hashcash/go/network"
+	"github.com/shantanu-hashcash/go/support/log"
 )
 
 const (

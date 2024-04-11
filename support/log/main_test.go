@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/sirupsen/logrus"
-	serr "github.com/hcnet/go/support/errors"
+	serr "github.com/shantanu-hashcash/go/support/errors"
 	"github.com/stretchr/testify/assert"
 )
 

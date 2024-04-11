@@ -1,9 +1,9 @@
 package txnbuild
 
 import (
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/amount"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // CreatePassiveSellOffer represents the Hcnet create passive offer operation. See

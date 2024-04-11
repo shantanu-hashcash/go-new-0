@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // One is the value of one whole unit of currency. Hcnet uses 7 fixed digits

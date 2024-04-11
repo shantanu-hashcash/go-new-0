@@ -6,8 +6,8 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/db"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 const offersBatchSize = 50000

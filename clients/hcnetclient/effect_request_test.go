@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hcnet/go/protocols/aurora/effects"
-	"github.com/hcnet/go/support/http/httptest"
+	"github.com/shantanu-hashcash/go/protocols/aurora/effects"
+	"github.com/shantanu-hashcash/go/support/http/httptest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -3,8 +3,8 @@ package auroraclient
 import (
 	"testing"
 
-	hProtocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/support/http/httptest"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/support/http/httptest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

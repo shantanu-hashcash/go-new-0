@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 const (

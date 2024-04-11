@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/guregu/null"
-	"github.com/hcnet/go/services/aurora/internal/test"
-	"github.com/hcnet/go/toid"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/toid"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 func TestAddOperation(t *testing.T) {

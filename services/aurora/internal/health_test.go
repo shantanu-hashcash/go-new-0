@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/protocols/hcnetcore"
-	"github.com/hcnet/go/support/clock"
-	"github.com/hcnet/go/support/clock/clocktest"
-	"github.com/hcnet/go/support/db"
+	"github.com/shantanu-hashcash/go/protocols/hcnetcore"
+	"github.com/shantanu-hashcash/go/support/clock"
+	"github.com/shantanu-hashcash/go/support/clock/clocktest"
+	"github.com/shantanu-hashcash/go/support/db"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

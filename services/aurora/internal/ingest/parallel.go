@@ -5,9 +5,9 @@ import (
 	"math"
 	"sync"
 
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/support/errors"
-	logpkg "github.com/hcnet/go/support/log"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2/history"
+	"github.com/shantanu-hashcash/go/support/errors"
+	logpkg "github.com/shantanu-hashcash/go/support/log"
 )
 
 const (

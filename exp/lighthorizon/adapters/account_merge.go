@@ -1,8 +1,8 @@
 package adapters
 
 import (
-	"github.com/hcnet/go/exp/lightaurora/common"
-	"github.com/hcnet/go/protocols/aurora/operations"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/common"
+	"github.com/shantanu-hashcash/go/protocols/aurora/operations"
 )
 
 func populateAccountMergeOperation(op *common.Operation, baseOp operations.Base) (operations.AccountMerge, error) {

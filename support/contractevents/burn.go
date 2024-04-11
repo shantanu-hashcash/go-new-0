@@ -1,8 +1,8 @@
 package contractevents
 
 import (
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 var ErrNotBurnEvent = errors.New("event is not a valid 'burn' event")
@@ -30,7 +30,7 @@ func (event *BurnEvent) parse(topics xdr.ScVec, value xdr.ScVal) error {
 	//
 	// 	<amount> 	i128
 	//
-	// Reference: https://github.com/hcnet/rs-soroban-env/blob/main/soroban-env-host/src/native_contract/token/event.rs#L102-L109
+	// Reference: https://github.com/shantanu-hashcash/rs-soroban-env/blob/main/soroban-env-host/src/native_contract/token/event.rs#L102-L109
 	//
 	if len(topics) != 3 {
 		return ErrNotBurnEvent

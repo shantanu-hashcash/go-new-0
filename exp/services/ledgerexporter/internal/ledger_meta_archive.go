@@ -3,7 +3,7 @@ package ledgerexporter
 import (
 	"fmt"
 
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // LedgerMetaArchive represents a file with metadata and binary data.

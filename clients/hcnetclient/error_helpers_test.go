@@ -3,8 +3,8 @@ package auroraclient
 import (
 	"testing"
 
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/render/problem"
 	"github.com/stretchr/testify/assert"
 )
 

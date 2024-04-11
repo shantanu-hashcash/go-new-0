@@ -1,7 +1,7 @@
 package xdr_test
 
 import (
-	. "github.com/hcnet/go/xdr"
+	. "github.com/shantanu-hashcash/go/xdr"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

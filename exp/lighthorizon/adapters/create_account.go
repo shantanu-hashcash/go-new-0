@@ -1,9 +1,9 @@
 package adapters
 
 import (
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/exp/lightaurora/common"
-	"github.com/hcnet/go/protocols/aurora/operations"
+	"github.com/shantanu-hashcash/go/amount"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/common"
+	"github.com/shantanu-hashcash/go/protocols/aurora/operations"
 )
 
 func populateCreateAccountOperation(op *common.Operation, baseOp operations.Base) (operations.CreateAccount, error) {

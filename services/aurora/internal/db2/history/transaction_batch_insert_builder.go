@@ -11,11 +11,11 @@ import (
 	"github.com/guregu/null"
 	"github.com/lib/pq"
 
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/services/aurora/internal/utf8"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/toid"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/utf8"
+	"github.com/shantanu-hashcash/go/support/db"
+	"github.com/shantanu-hashcash/go/toid"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // TransactionBatchInsertBuilder is used to insert transactions into the

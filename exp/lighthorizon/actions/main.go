@@ -11,9 +11,9 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/render/hal"
-	supportProblem "github.com/hcnet/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/render/hal"
+	supportProblem "github.com/shantanu-hashcash/go/support/render/problem"
 )
 
 var (

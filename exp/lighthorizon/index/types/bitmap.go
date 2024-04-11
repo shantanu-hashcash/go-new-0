@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hcnet/go/support/ordered"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/support/ordered"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 const BitmapIndexVersion = 1

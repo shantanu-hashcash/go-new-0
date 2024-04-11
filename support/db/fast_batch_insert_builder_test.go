@@ -7,7 +7,7 @@ import (
 	"github.com/guregu/null"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hcnet/go/support/db/dbtest"
+	"github.com/shantanu-hashcash/go/support/db/dbtest"
 )
 
 func TestFastBatchInsertBuilder(t *testing.T) {

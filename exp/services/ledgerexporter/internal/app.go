@@ -10,9 +10,9 @@ import (
 	"syscall"
 
 	"github.com/pkg/errors"
-	"github.com/hcnet/go/ingest/ledgerbackend"
-	_ "github.com/hcnet/go/network"
-	"github.com/hcnet/go/support/log"
+	"github.com/shantanu-hashcash/go/ingest/ledgerbackend"
+	_ "github.com/shantanu-hashcash/go/network"
+	"github.com/shantanu-hashcash/go/support/log"
 )
 
 var (

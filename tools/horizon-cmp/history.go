@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	slog "github.com/hcnet/go/support/log"
-	cmp "github.com/hcnet/go/tools/aurora-cmp/internal"
+	slog "github.com/shantanu-hashcash/go/support/log"
+	cmp "github.com/shantanu-hashcash/go/tools/aurora-cmp/internal"
 )
 
 var (

@@ -13,11 +13,11 @@ import (
 	"time"
 
 	"github.com/spf13/cobra"
-	client "github.com/hcnet/go/clients/auroraclient"
-	protocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/support/errors"
-	slog "github.com/hcnet/go/support/log"
-	cmp "github.com/hcnet/go/tools/aurora-cmp/internal"
+	client "github.com/shantanu-hashcash/go/clients/auroraclient"
+	protocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/support/errors"
+	slog "github.com/shantanu-hashcash/go/support/log"
+	cmp "github.com/shantanu-hashcash/go/tools/aurora-cmp/internal"
 )
 
 // maxLevels defines the maximum number of levels deep the crawler

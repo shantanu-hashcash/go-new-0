@@ -3,7 +3,7 @@ package paths
 import (
 	"context"
 
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // Query is a query for paths

@@ -9,14 +9,14 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/services/regulated-assets-approval-server/internal/serve/httperror"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/http/httpdecode"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/txnbuild"
+	"github.com/shantanu-hashcash/go/amount"
+	"github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/services/regulated-assets-approval-server/internal/serve/httperror"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/http/httpdecode"
+	"github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/txnbuild"
 )
 
 type txApproveHandler struct {

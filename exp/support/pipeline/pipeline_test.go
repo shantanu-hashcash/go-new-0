@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/exp/support/pipeline"
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/exp/support/pipeline"
+	"github.com/shantanu-hashcash/go/support/errors"
 	"github.com/stretchr/testify/assert"
 )
 

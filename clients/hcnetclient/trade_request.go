@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"net/url"
 
-	hProtocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/support/errors"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 // BuildURL creates the endpoint to be queried based on the data in the TradeRequest struct.

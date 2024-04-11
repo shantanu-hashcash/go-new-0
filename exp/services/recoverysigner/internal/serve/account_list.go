@@ -3,11 +3,11 @@ package serve
 import (
 	"net/http"
 
-	"github.com/hcnet/go/exp/services/recoverysigner/internal/account"
-	"github.com/hcnet/go/exp/services/recoverysigner/internal/serve/auth"
-	"github.com/hcnet/go/keypair"
-	supportlog "github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/render/httpjson"
+	"github.com/shantanu-hashcash/go/exp/services/recoverysigner/internal/account"
+	"github.com/shantanu-hashcash/go/exp/services/recoverysigner/internal/serve/auth"
+	"github.com/shantanu-hashcash/go/keypair"
+	supportlog "github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/render/httpjson"
 )
 
 type accountListHandler struct {

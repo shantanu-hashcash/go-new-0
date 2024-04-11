@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	hProtocol "github.com/hcnet/go/protocols/aurora"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

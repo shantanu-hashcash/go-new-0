@@ -4,10 +4,10 @@ import (
 	"go/types"
 
 	"github.com/spf13/cobra"
-	"github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/services/regulated-assets-approval-server/internal/configureissuer"
-	"github.com/hcnet/go/support/config"
+	"github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/network"
+	"github.com/shantanu-hashcash/go/services/regulated-assets-approval-server/internal/configureissuer"
+	"github.com/shantanu-hashcash/go/support/config"
 )
 
 type ConfigureIssuer struct{}

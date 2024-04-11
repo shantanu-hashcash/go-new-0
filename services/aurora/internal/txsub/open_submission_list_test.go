@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/services/aurora/internal/test"
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/support/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

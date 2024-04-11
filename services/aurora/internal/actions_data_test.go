@@ -8,10 +8,10 @@ import (
 	"github.com/guregu/null"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/services/aurora/internal/ingest"
-	"github.com/hcnet/go/services/aurora/internal/test"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2/history"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/ingest"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 var (
@@ -79,7 +79,7 @@ func TestDataActions_Show(t *testing.T) {
 	}
 
 	result = map[string]string{}
-	// regression: https://github.com/hcnet/aurora/issues/325
+	// regression: https://github.com/shantanu-hashcash/aurora/issues/325
 	// names with special characters do not work
 	w = ht.Get(prefix + "/data/name%20")
 	if ht.Assert.Equal(200, w.Code) {

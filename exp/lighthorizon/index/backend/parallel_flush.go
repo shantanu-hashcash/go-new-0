@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	types "github.com/hcnet/go/exp/lightaurora/index/types"
-	"github.com/hcnet/go/support/log"
+	types "github.com/shantanu-hashcash/go/exp/lightaurora/index/types"
+	"github.com/shantanu-hashcash/go/support/log"
 )
 
 type batch struct {

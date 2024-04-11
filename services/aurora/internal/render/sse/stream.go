@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/pkg/errors"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/render/problem"
 )
 
 var (

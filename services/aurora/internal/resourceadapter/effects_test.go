@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/guregu/null"
-	"github.com/hcnet/go/protocols/aurora/effects"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/support/render/hal"
-	"github.com/hcnet/go/support/test"
+	"github.com/shantanu-hashcash/go/protocols/aurora/effects"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2/history"
+	"github.com/shantanu-hashcash/go/support/render/hal"
+	"github.com/shantanu-hashcash/go/support/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

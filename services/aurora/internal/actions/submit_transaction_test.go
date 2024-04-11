@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/services/aurora/internal/corestate"
-	hProblem "github.com/hcnet/go/services/aurora/internal/render/problem"
-	"github.com/hcnet/go/services/aurora/internal/txsub"
-	"github.com/hcnet/go/support/render/problem"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/network"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/corestate"
+	hProblem "github.com/shantanu-hashcash/go/services/aurora/internal/render/problem"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/txsub"
+	"github.com/shantanu-hashcash/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 func TestHcnetCoreMalformedTx(t *testing.T) {

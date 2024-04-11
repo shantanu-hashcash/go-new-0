@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hcnet/go/support/db/dbtest"
+	"github.com/shantanu-hashcash/go/support/db/dbtest"
 	"github.com/stretchr/testify/assert"
 )
 

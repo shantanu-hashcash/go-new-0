@@ -10,16 +10,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hcnet/go/historyarchive"
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/ingest/ledgerbackend"
-	"github.com/hcnet/go/metaarchive"
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/support/storage"
-	"github.com/hcnet/go/toid"
+	"github.com/shantanu-hashcash/go/historyarchive"
+	"github.com/shantanu-hashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/ingest/ledgerbackend"
+	"github.com/shantanu-hashcash/go/metaarchive"
+	"github.com/shantanu-hashcash/go/network"
+	"github.com/shantanu-hashcash/go/support/storage"
+	"github.com/shantanu-hashcash/go/toid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hcnet/go/exp/lightaurora/index"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/index"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/hcnet/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
 	"github.com/stretchr/testify/assert"
 )
 

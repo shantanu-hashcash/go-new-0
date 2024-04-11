@@ -1,8 +1,8 @@
 package txnbuild
 
 import (
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // ChangeTrustAsset represents a Hcnet change trust asset.

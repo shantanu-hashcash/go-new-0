@@ -4,10 +4,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/services/aurora/internal/db2/history"
-	"github.com/hcnet/go/services/aurora/internal/test"
-	supportProblem "github.com/hcnet/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2/history"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
+	supportProblem "github.com/shantanu-hashcash/go/support/render/problem"
 )
 
 func TestGetTransactionsHandler(t *testing.T) {

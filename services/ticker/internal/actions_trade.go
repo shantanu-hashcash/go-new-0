@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	auroraclient "github.com/hcnet/go/clients/auroraclient"
-	hProtocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/services/ticker/internal/scraper"
-	"github.com/hcnet/go/services/ticker/internal/tickerdb"
-	hlog "github.com/hcnet/go/support/log"
+	auroraclient "github.com/shantanu-hashcash/go/clients/auroraclient"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/scraper"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/tickerdb"
+	hlog "github.com/shantanu-hashcash/go/support/log"
 )
 
 // StreamTrades constantly streams and ingests new trades directly from aurora.

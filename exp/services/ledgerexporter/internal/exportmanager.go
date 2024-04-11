@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/pkg/errors"
-	"github.com/hcnet/go/ingest/ledgerbackend"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/ingest/ledgerbackend"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 type ExporterConfig struct {

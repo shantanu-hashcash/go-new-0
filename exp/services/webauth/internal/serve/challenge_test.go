@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/strkey"
-	supportlog "github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/txnbuild"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/network"
+	"github.com/shantanu-hashcash/go/strkey"
+	supportlog "github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/txnbuild"
+	"github.com/shantanu-hashcash/go/xdr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/hcnet/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
 )
 
 func TestDefaultSubmitter(t *testing.T) {

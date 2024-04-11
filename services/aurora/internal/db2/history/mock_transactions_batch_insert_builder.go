@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/support/db"
+	"github.com/shantanu-hashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/support/db"
 )
 
 type MockTransactionsBatchInsertBuilder struct {

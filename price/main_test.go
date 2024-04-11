@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

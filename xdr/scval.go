@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/hcnet/go/strkey"
+	"github.com/shantanu-hashcash/go/strkey"
 )
 
 func (address ScAddress) String() (string, error) {

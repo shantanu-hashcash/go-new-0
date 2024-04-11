@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	supporthttp "github.com/hcnet/go/support/http"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/render/health"
-	"github.com/hcnet/go/support/render/httpjson"
+	supporthttp "github.com/shantanu-hashcash/go/support/http"
+	"github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/render/health"
+	"github.com/shantanu-hashcash/go/support/render/httpjson"
 )
 
 func ExampleResponse() {

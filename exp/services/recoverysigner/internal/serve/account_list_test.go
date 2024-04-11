@@ -7,11 +7,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/hcnet/go/exp/services/recoverysigner/internal/account"
-	"github.com/hcnet/go/exp/services/recoverysigner/internal/db/dbtest"
-	"github.com/hcnet/go/exp/services/recoverysigner/internal/serve/auth"
-	"github.com/hcnet/go/keypair"
-	supportlog "github.com/hcnet/go/support/log"
+	"github.com/shantanu-hashcash/go/exp/services/recoverysigner/internal/account"
+	"github.com/shantanu-hashcash/go/exp/services/recoverysigner/internal/db/dbtest"
+	"github.com/shantanu-hashcash/go/exp/services/recoverysigner/internal/serve/auth"
+	"github.com/shantanu-hashcash/go/keypair"
+	supportlog "github.com/shantanu-hashcash/go/support/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

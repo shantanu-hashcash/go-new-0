@@ -13,15 +13,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hcnet/go/txnbuild"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/txnbuild"
+	"github.com/shantanu-hashcash/go/xdr"
 
 	"github.com/manucorporat/sse"
 
-	hProtocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/protocols/aurora/effects"
-	"github.com/hcnet/go/protocols/aurora/operations"
-	"github.com/hcnet/go/support/errors"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/protocols/aurora/effects"
+	"github.com/shantanu-hashcash/go/protocols/aurora/operations"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 // sendRequest builds the URL for the given aurora request and sends the url to a aurora server
@@ -35,7 +35,7 @@ func (c *Client) sendRequest(hr AuroraRequest, resp interface{}) (err error) {
 }
 
 // checkMemoRequired implements a memo required check as defined in
-// https://github.com/hcnet/hcnet-protocol/blob/master/ecosystem/sep-0029.md
+// https://github.com/shantanu-hashcash/hcnet-protocol/blob/master/ecosystem/sep-0029.md
 func (c *Client) checkMemoRequired(transaction *txnbuild.Transaction) error {
 	destinations := map[string]bool{}
 
@@ -453,7 +453,7 @@ func (c *Client) SubmitTransactionXDR(transactionXdr string) (tx hProtocol.Trans
 // error object or a aurora.Error object.
 //
 // This function will always check if the destination account requires a memo in the transaction as
-// defined in SEP0029: https://github.com/hcnet/hcnet-protocol/blob/master/ecosystem/sep-0029.md
+// defined in SEP0029: https://github.com/shantanu-hashcash/hcnet-protocol/blob/master/ecosystem/sep-0029.md
 //
 // If you want to skip this check, use SubmitTransactionWithOptions.
 //
@@ -489,7 +489,7 @@ func (c *Client) SubmitFeeBumpTransactionWithOptions(transaction *txnbuild.FeeBu
 // error object or a aurora.Error object.
 //
 // This function will always check if the destination account requires a memo in the transaction as
-// defined in SEP0029: https://github.com/hcnet/hcnet-protocol/blob/master/ecosystem/sep-0029.md
+// defined in SEP0029: https://github.com/shantanu-hashcash/hcnet-protocol/blob/master/ecosystem/sep-0029.md
 //
 // If you want to skip this check, use SubmitTransactionWithOptions.
 //

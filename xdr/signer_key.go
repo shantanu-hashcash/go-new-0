@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/hcnet/go/strkey"
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/strkey"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 // Address returns the strkey encoded form of this signer key.  This method will

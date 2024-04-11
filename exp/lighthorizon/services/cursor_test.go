@@ -4,10 +4,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/hcnet/go/exp/lightaurora/index"
-	"github.com/hcnet/go/historyarchive"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/toid"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/index"
+	"github.com/shantanu-hashcash/go/historyarchive"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/toid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

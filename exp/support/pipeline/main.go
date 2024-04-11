@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 // ErrShutdown is an error send to post-processing hook when pipeline has been

@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	auroraclient "github.com/hcnet/go/clients/auroraclient"
-	hProtocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/log"
+	auroraclient "github.com/shantanu-hashcash/go/clients/auroraclient"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/log"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,7 +1,7 @@
 package auroraclient
 
 import (
-	"github.com/hcnet/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/errors"
 	"net/http"
 )
 

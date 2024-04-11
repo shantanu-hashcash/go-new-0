@@ -3,7 +3,7 @@ package ledgerbackend
 import (
 	"context"
 
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // LedgerBackend represents the interface to a ledger data store.

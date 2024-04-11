@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hcnet/go/exp/lightaurora/index"
-	"github.com/hcnet/go/historyarchive"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/support/log"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/index"
+	"github.com/shantanu-hashcash/go/historyarchive"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/support/log"
 	"github.com/stretchr/testify/require"
 )
 

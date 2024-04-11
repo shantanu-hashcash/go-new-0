@@ -15,12 +15,12 @@ import (
 	"time"
 
 	"github.com/spf13/cobra"
-	"github.com/hcnet/go/services/aurora/internal/paths"
-	"github.com/hcnet/go/services/aurora/internal/simplepath"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/paths"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/simplepath"
 
-	auroracmd "github.com/hcnet/go/services/aurora/cmd"
-	aurora "github.com/hcnet/go/services/aurora/internal"
-	"github.com/hcnet/go/services/aurora/internal/test/integration"
+	auroracmd "github.com/shantanu-hashcash/go/services/aurora/cmd"
+	aurora "github.com/shantanu-hashcash/go/services/aurora/internal"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test/integration"
 
 	"github.com/stretchr/testify/assert"
 )
@@ -174,7 +174,7 @@ func TestInvalidNetworkParameters(t *testing.T) {
 			test := integration.NewTest(t, *testConfig)
 			err := test.StartAurora()
 			// Adding sleep as a workaround for the race condition in the ingestion system.
-			// https://github.com/hcnet/go/issues/5005
+			// https://github.com/shantanu-hashcash/go/issues/5005
 			time.Sleep(2 * time.Second)
 			assert.Equal(t, testCase.errMsg, err.Error())
 			test.Shutdown()
@@ -221,7 +221,7 @@ func TestNetworkParameter(t *testing.T) {
 			test := integration.NewTest(t, *testConfig)
 			err := test.StartAurora()
 			// Adding sleep as a workaround for the race condition in the ingestion system.
-			// https://github.com/hcnet/go/issues/5005
+			// https://github.com/shantanu-hashcash/go/issues/5005
 			time.Sleep(2 * time.Second)
 			assert.NoError(t, err)
 			assert.Equal(t, test.GetAuroraIngestConfig().HistoryArchiveURLs, tt.historyArchiveURLs)
@@ -267,7 +267,7 @@ func TestNetworkEnvironmentVariable(t *testing.T) {
 			test := integration.NewTest(t, *testConfig)
 			err := test.StartAurora()
 			// Adding sleep here as a workaround for the race condition in the ingestion system.
-			// More details can be found at https://github.com/hcnet/go/issues/5005
+			// More details can be found at https://github.com/shantanu-hashcash/go/issues/5005
 			time.Sleep(2 * time.Second)
 			assert.NoError(t, err)
 			test.Shutdown()

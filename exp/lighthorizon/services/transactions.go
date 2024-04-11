@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/hcnet/go/exp/lightaurora/common"
-	"github.com/hcnet/go/exp/lightaurora/ingester"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/common"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/ingester"
+	"github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 type TransactionRepository struct {

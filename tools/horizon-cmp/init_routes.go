@@ -1,7 +1,7 @@
 package main
 
 import (
-	cmp "github.com/hcnet/go/tools/aurora-cmp/internal"
+	cmp "github.com/shantanu-hashcash/go/tools/aurora-cmp/internal"
 )
 
 var routes = cmp.Routes{

@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"cloud.google.com/go/storage"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/url"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/url"
 	"google.golang.org/api/option"
 )
 

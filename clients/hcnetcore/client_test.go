@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	proto "github.com/hcnet/go/protocols/hcnetcore"
-	"github.com/hcnet/go/support/http/httptest"
+	proto "github.com/shantanu-hashcash/go/protocols/hcnetcore"
+	"github.com/shantanu-hashcash/go/support/http/httptest"
 )
 
 func TestSubmitTransaction(t *testing.T) {

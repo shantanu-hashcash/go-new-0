@@ -6,11 +6,11 @@ import (
 
 	"github.com/guregu/null"
 
-	"github.com/hcnet/go/ingest"
-	"github.com/hcnet/go/support/db"
-	"github.com/hcnet/go/support/errors"
-	logpkg "github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/support/db"
+	"github.com/shantanu-hashcash/go/support/errors"
+	logpkg "github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 var log = logpkg.DefaultLogger.WithField("service", "ingest")

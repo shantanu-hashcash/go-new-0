@@ -3,7 +3,7 @@ package problem
 import (
 	"net/http"
 
-	"github.com/hcnet/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/support/render/problem"
 )
 
 // Well-known and reused problems below:

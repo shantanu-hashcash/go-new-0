@@ -5,8 +5,8 @@ import (
 	"crypto/ed25519"
 	"encoding/base64"
 
-	"github.com/hcnet/go/strkey"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/strkey"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 type Full struct {

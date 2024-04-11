@@ -6,7 +6,7 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/hcnet/go/support/db"
+	"github.com/shantanu-hashcash/go/support/db"
 )
 
 // TrustedLedgerHashStore is used to query ledger data from a trusted source.

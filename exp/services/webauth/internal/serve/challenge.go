@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/strkey"
-	supportlog "github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/render/httpjson"
-	"github.com/hcnet/go/txnbuild"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/strkey"
+	supportlog "github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/render/httpjson"
+	"github.com/shantanu-hashcash/go/txnbuild"
 )
 
 // ChallengeHandler implements the SEP-10 challenge endpoint and handles

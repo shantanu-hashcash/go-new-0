@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	backend "github.com/hcnet/go/exp/lightaurora/index/backend"
-	types "github.com/hcnet/go/exp/lightaurora/index/types"
-	"github.com/hcnet/go/support/log"
+	backend "github.com/shantanu-hashcash/go/exp/lightaurora/index/backend"
+	types "github.com/shantanu-hashcash/go/exp/lightaurora/index/types"
+	"github.com/shantanu-hashcash/go/support/log"
 )
 
 type Store interface {

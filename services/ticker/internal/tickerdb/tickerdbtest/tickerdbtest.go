@@ -6,7 +6,7 @@ import (
 	"time"
 
 	migrate "github.com/rubenv/sql-migrate"
-	"github.com/hcnet/go/services/ticker/internal/tickerdb"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/tickerdb"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

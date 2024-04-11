@@ -1,12 +1,12 @@
 package adapters
 
 import (
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/exp/lightaurora/common"
-	"github.com/hcnet/go/protocols/aurora/base"
-	"github.com/hcnet/go/protocols/aurora/operations"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/amount"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/common"
+	"github.com/shantanu-hashcash/go/protocols/aurora/base"
+	"github.com/shantanu-hashcash/go/protocols/aurora/operations"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 func populateChangeTrustOperation(op *common.Operation, baseOp operations.Base) (operations.ChangeTrust, error) {

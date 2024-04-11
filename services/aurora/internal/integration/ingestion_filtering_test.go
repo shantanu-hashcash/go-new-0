@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/clients/auroraclient"
-	hProtocol "github.com/hcnet/go/protocols/aurora"
-	"github.com/hcnet/go/services/aurora/internal/ingest/filters"
-	"github.com/hcnet/go/services/aurora/internal/test/integration"
-	"github.com/hcnet/go/txnbuild"
+	"github.com/shantanu-hashcash/go/clients/auroraclient"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/ingest/filters"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test/integration"
+	"github.com/shantanu-hashcash/go/txnbuild"
 	"github.com/stretchr/testify/assert"
 )
 

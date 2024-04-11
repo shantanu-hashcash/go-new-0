@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	auroraclient "github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/services/ticker/internal/scraper"
-	"github.com/hcnet/go/services/ticker/internal/tickerdb"
-	"github.com/hcnet/go/services/ticker/internal/utils"
-	hlog "github.com/hcnet/go/support/log"
+	auroraclient "github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/scraper"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/tickerdb"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/utils"
+	hlog "github.com/shantanu-hashcash/go/support/log"
 )
 
 // RefreshAssets scrapes the most recent asset list and ingests then into the db.

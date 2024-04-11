@@ -3,12 +3,12 @@ package txnbuild
 import (
 	"testing"
 
-	"github.com/hcnet/go/price"
+	"github.com/shantanu-hashcash/go/price"
 
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/xdr"
 
-	"github.com/hcnet/go/network"
+	"github.com/shantanu-hashcash/go/network"
 	"github.com/stretchr/testify/assert"
 )
 

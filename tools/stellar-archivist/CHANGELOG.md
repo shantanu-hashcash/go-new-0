@@ -17,6 +17,6 @@ bumps.  A breaking change will get clearly notified in this log.
 
 ## [v0.1.0] - 2016-08-17
 
-Initial release after import from https://github.com/hcnet/archivist
+Initial release after import from https://github.com/shantanu-hashcash/archivist
 
-[Unreleased]: https://github.com/hcnet/go/compare/hcnet-archivist-v0.1.0...master
+[Unreleased]: https://github.com/shantanu-hashcash/go/compare/hcnet-archivist-v0.1.0...master

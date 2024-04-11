@@ -5,12 +5,12 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/hcnet/go/clients/auroraclient"
-	"github.com/hcnet/go/keypair"
-	"github.com/hcnet/go/services/friendbot/internal"
-	"github.com/hcnet/go/strkey"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/txnbuild"
+	"github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/services/friendbot/internal"
+	"github.com/shantanu-hashcash/go/strkey"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/txnbuild"
 )
 
 func initFriendbot(

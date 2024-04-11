@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hcnet/go/amount"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/amount"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 var Tests = []struct {

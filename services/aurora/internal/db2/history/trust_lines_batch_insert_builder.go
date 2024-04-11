@@ -3,7 +3,7 @@ package history
 import (
 	"context"
 
-	"github.com/hcnet/go/support/db"
+	"github.com/shantanu-hashcash/go/support/db"
 )
 
 // TrustLinesBatchInsertBuilder is used to insert trustlines into the trust_lines table

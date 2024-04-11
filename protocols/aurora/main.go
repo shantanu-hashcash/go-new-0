@@ -11,11 +11,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hcnet/go/protocols/aurora/base"
-	"github.com/hcnet/go/strkey"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/render/hal"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/protocols/aurora/base"
+	"github.com/shantanu-hashcash/go/strkey"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/render/hal"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // KeyTypeNames maps from strkey version bytes into json string values to use in
@@ -733,7 +733,7 @@ type FeeDistribution struct {
 }
 
 // FeeStats represents a response of fees from aurora
-// To do: implement fee suggestions if agreement is reached in https://github.com/hcnet/go/issues/926
+// To do: implement fee suggestions if agreement is reached in https://github.com/shantanu-hashcash/go/issues/926
 type FeeStats struct {
 	LastLedger          uint32  `json:"last_ledger,string"`
 	LastLedgerBaseFee   int64   `json:"last_ledger_base_fee,string"`

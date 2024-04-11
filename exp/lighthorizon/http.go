@@ -10,10 +10,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/hcnet/go/exp/lightaurora/actions"
-	"github.com/hcnet/go/exp/lightaurora/services"
-	supportHttp "github.com/hcnet/go/support/http"
-	"github.com/hcnet/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/actions"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/services"
+	supportHttp "github.com/shantanu-hashcash/go/support/http"
+	"github.com/shantanu-hashcash/go/support/render/problem"
 )
 
 func newWrapResponseWriter(w http.ResponseWriter, r *http.Request) middleware.WrapResponseWriter {

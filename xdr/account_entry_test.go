@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/hcnet/go/xdr"
+	. "github.com/shantanu-hashcash/go/xdr"
 )
 
 var _ = Describe("xdr.AccountEntry#SignerSummary()", func() {

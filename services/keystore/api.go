@@ -12,11 +12,11 @@ import (
 	"time"
 
 	"github.com/rs/cors"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/support/log"
-	"github.com/hcnet/go/support/render/health"
-	"github.com/hcnet/go/support/render/httpjson"
-	"github.com/hcnet/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/render/health"
+	"github.com/shantanu-hashcash/go/support/render/httpjson"
+	"github.com/shantanu-hashcash/go/support/render/problem"
 )
 
 func init() {

@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hcnet/go/support/storage"
+	"github.com/shantanu-hashcash/go/support/storage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

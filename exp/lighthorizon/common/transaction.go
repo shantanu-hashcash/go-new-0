@@ -4,10 +4,10 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/hcnet/go/exp/lightaurora/ingester"
-	"github.com/hcnet/go/network"
-	"github.com/hcnet/go/toid"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/exp/lightaurora/ingester"
+	"github.com/shantanu-hashcash/go/network"
+	"github.com/shantanu-hashcash/go/toid"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 type Transaction struct {

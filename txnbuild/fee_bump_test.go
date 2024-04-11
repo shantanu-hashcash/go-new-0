@@ -5,9 +5,9 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/hcnet/go/network"
+	"github.com/shantanu-hashcash/go/network"
 
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

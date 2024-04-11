@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hcnet/go/metaarchive"
-	"github.com/hcnet/go/xdr"
+	"github.com/shantanu-hashcash/go/metaarchive"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 type HistoryArchiveBackend struct {

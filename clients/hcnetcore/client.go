@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	proto "github.com/hcnet/go/protocols/hcnetcore"
-	"github.com/hcnet/go/support/errors"
-	"github.com/hcnet/go/xdr"
+	proto "github.com/shantanu-hashcash/go/protocols/hcnetcore"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // Client represents a client that is capable of communicating with a
